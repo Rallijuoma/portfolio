@@ -1,10 +1,13 @@
+// App.tsx
 import React from 'react'
-import someExampleComponent from './components/Example/someExampleComponent';
+import MyFirstComponent from './components/myFirstComponent';
+import styles from './someExampleComponent.module.scss';
 
 const App: React.FC = () => {
   return (
     <div>
-      <<someExampleComponent />
+      <MyFirstComponent />
+      <someExampleComponent />
     </div>
   )
 }
