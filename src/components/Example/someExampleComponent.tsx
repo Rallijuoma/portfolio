@@ -5,15 +5,10 @@ type SomeExampleComponentProps = {
 
 }
 
-const SomeExampleComponent: React.FC<SomeExampleComponentProps> = () => {
-  return (
-    <div>
-      SomeExampleComponent
-    </div>
-  )
-}
+const SomeExampleComponent: React.FC<SomeExampleComponentProps> = () => 
 <div className={styles.container}>
   <h1>Header</h1>
   <p>My supercool component</p>
 </div>
+
 export default SomeExampleComponent
