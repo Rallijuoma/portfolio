@@ -14,6 +14,13 @@ const ClickCount: React.FC<ClickCountProps> = () => {
       </button>
     </div>
   )
+  const App = () => {
+    useEffect(() => {
+        console.log("This effect is called on every render");
+    });
+
+    // return..
+}
 }
 
 export default ClickCount
