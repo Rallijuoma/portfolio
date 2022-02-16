@@ -1,5 +1,12 @@
 .container{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
     a{
+        margin: 0 15px;
         font-size: 25px;
         // background: #ff0000;
         display: flex;
