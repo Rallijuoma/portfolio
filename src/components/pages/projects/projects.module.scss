@@ -1,0 +1,12 @@
+.container{
+    a{
+        font-size: 25px;
+        // background: #ff0000;
+        display: flex;
+        text-decoration: none;
+        &:hover{
+            color: #000;
+        }
+
+    }
+}
