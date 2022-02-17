@@ -8,7 +8,11 @@ type CvProps = {
 const Cv: React.FC<CvProps> = () => {
   return (
     <div className={styles.container}>
-      Cv
+      
+      <h1>CV</h1>
+
+      <img alt="CV"></img>
+
     </div>
   )
 }
