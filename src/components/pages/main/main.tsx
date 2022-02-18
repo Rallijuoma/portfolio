@@ -20,7 +20,7 @@ const Main: React.FC<MainProps> = () => {
         <hr></hr>
 
       <h3>My Skills</h3>
-        <p></p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptates harum illo quisquam, veritatis ut perspiciatis, quae odit corporis, minus culpa facere nam saepe accusantium?</p>
       
     
     </div>
