@@ -8,7 +8,7 @@ type MainProps = {
 const Main: React.FC<MainProps> = () => {
   return (
     <div className={styles.container}>
-      <img src='https://i.pinimg.com/originals/31/88/35/318835b0a606b4d2d4cdaa3154ed5aa9.jpg' alt="stickman" className="container"></img>
+      <img src='https://eduvantaa-my.sharepoint.com/personal/juuso_huuskonen_opp_eduvantaa_fi/Documents/Juuso_Huuskonen.jpg' alt="stickman" className="container"></img>
 
       <h1><b>Juuso Huuskonen</b></h1>
     
@@ -20,8 +20,12 @@ const Main: React.FC<MainProps> = () => {
         <hr></hr>
 
       <h3>My Skills</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptates harum illo quisquam, veritatis ut perspiciatis, quae odit corporis, minus culpa facere nam saepe accusantium?</p>
+      <p> 
+          I have programming skills on C#, HTML, CSS and SQL.
+          I also have basic knowledge on Java, JS and TS.
+        </p>
       
+      <hr></hr>
     
     </div>
   )

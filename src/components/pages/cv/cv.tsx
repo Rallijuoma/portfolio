@@ -11,7 +11,7 @@ const Cv: React.FC<CvProps> = () => {
       
       <h1>CV</h1>
 
-      <img alt="CV"></img>
+      <img src='https://binaries.templates.cdn.office.net/support/templates/fi-fi/lt16402487_quantized.png' alt='cv' className="container"/>
 
     </div>
   )
