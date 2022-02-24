@@ -2,8 +2,8 @@
     ul {
     background: #00ffd9;
     display: flex;
+    height: 60px;
     flex-direction: row;
-    height: 55px;
     align-items: center;
     justify-content: flex-end;
     list-style: none;
@@ -18,5 +18,8 @@
                 color: #00008b;
             }
         }
+    SocialIcons{
+        height: 45px;
+    }
     }
 }
