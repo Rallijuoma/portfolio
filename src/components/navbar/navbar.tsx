@@ -24,7 +24,7 @@ const Navbar: React.FC<NavbarProps> = () => {
             <SocialIcon url="https://twitter.com/juusohuuskonen" target="_blank" />
             <SocialIcon url='https://www.instagram.com/juuso_huuskonen/' target="_blank"/>
             <SocialIcon url='https://github.com/Rallijuoma' target="_blank"/>
-            <SocialIcon url='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWsLSCxPzfGzhrdFKfmXrVVPCtVRqvFVKWnLjZTfRHMhqZmqLNZkSJBbCzCbJwxKpWcbLDSLl' target="_blank<"/>
+            {/* <SocialIcon url='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWsLSCxPzfGzhrdFKfmXrVVPCtVRqvFVKWnLjZTfRHMhqZmqLNZkSJBbCzCbJwxKpWcbLDSLl' target="_blank<"/> */}
         </ul>
     </nav>
   )
