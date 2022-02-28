@@ -20,12 +20,11 @@ const Main: React.FC<MainProps> = () => {
         <hr></hr>
 
       <h3>My Skills</h3>
-      <p> 
-          I have programming skills on C#, HTML, CSS and SQL.
-          I also have basic knowledge on Java, JS and TS.
-        </p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat enim quis fugit facere. Suscipit quas laboriosam nostrum rem sapiente perferendis inventore voluptatibus placeat vitae!</p>
       
       <hr></hr>
+      
+      <a></a>
     
     </div>
   )
