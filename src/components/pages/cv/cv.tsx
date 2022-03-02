@@ -13,8 +13,11 @@ const Cv: React.FC<CvProps> = () => {
 
         <h3>Vocational qualification</h3>
         <h6>Vocational college Varia: Myyrmäki office</h6>
-        <p>6/08/2020  {'  >'}</p>
-          
+        <p> 6/08/2020      {'  >' }   </p>
+
+        <hr></hr>
+        
+      <h1></h1>
        
 
     </div>
