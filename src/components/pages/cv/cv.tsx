@@ -17,7 +17,7 @@ const Cv: React.FC<CvProps> = () => {
 
         <hr></hr>
         
-      <h1></h1>
+      <h1>k</h1>
        
 
     </div>
