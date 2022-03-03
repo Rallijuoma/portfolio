@@ -30,9 +30,10 @@ const Cv: React.FC<CvProps> = () => {
         <h5><br/>Postman in on-the-job learning</h5>
         <p><br/>12.2.2018  { '  >  ' } 16.2.2018 <br/>11.2.2019 { ' > ' } 22.2.2019</p>
         <hr/>
-
-      <h2>GMAIL:huuskonen39@gmail.com</h2>
-      <h2>PHONE NUMBER:</h2>
+      
+      <h1>Information</h1>
+        <h2>GMAIL:huuskonen39@gmail.com</h2>
+        
 
 
     </div>
