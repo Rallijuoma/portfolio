@@ -13,8 +13,8 @@ const Main: React.FC<MainProps> = () => {
       <h1><b>Juuso Huuskonen</b></h1>
     
       <p>
-         Hi! This is my portfolio. Here you will find my cv and few of my projects. 
-         I study information and communication technology at vocational college Varia: Myyrmäki office. 
+         Hi! This is my portfolio. Here you will find my cv and few of my projects. <br/> 
+         I study information and communication technology at <br/> vocational college Varia: Myyrmäki office. 
      </p>
 
         <hr></hr>
