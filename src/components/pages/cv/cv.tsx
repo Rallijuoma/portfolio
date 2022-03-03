@@ -18,8 +18,8 @@ const Cv: React.FC<CvProps> = () => {
         <hr></hr>
         
       <h1>Skills</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci quaerat enim quis fugit facere. Suscipit quas laboriosam nostrum rem sapiente perferendis inventore voluptatibus placeat vitae!</p>
-
+      <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br/> Adipisci quaerat enim quis fugit facere. Suscipit quas <br/>laboriosam nostrum rem sapiente perferendis inventore voluptatibus <br/> placeat vitae!</h5>
+        <hr></hr>
 
     </div>
   )
