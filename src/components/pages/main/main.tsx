@@ -15,12 +15,7 @@ const Main: React.FC<MainProps> = () => {
       <p>
          Hi! This is my portfolio. Here you will find my cv and few of my projects. <br/> 
          I study information and communication technology at <br/> vocational college Varia: Myyrmäki office. 
-     </p>
-
-        <hr></hr>
-
-      <h3>My Skills</h3>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br/> Adipisci quaerat enim quis fugit facere. Suscipit quas laboriosam nostrum <br/>rem sapiente perferendis inventore voluptatibus placeat vitae!</p>
+      </p>
       
       <hr></hr>
     
