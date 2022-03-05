@@ -8,21 +8,26 @@ type CvProps = {
 const Cv: React.FC<CvProps> = () => {
   return (
     <div className={styles.container}>
+      <h1>About Me</h1>
+      <h5> I study information and communication technology at <br/> vocational college Varia: Myyrmäki office.</h5> 
+        <hr/>
+
       <h1>Education</h1>
-        <h3><br/>Primary School</h3>
-        <h5><br/>I studied at Harjulan ala-aste</h5>
+        <h3>Primary School</h3>
+        <h5><br/>Studied at Harjulan ala-aste</h5>
         <p><br/>2011 {' > '} 2017</p>
-        <h3><br/>Junior High School</h3>
-        <h5><br/>I studied at Isoniitun yläaste</h5>
+        <h3><br/><br/>Junior High School</h3>
+        <h5><br/>Studied at Isoniitun koulu</h5>
         <p><br/> 2017 {' > '} 2020</p>
-        <h3><br/>Vocational Qualification</h3>
+        <h3><br/><br/>Vocational Qualification</h3>
         <h5><br/>Vocational college Varia: Myyrmäki office</h5>
         <p> <br/>6/08/2020      {'  >' }   </p>
         <hr/>
         
+        <br/>
       <h1>Skills</h1>
-        <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br/> Adipisci quaerat enim quis fugit facere. Suscipit quas 
-        <br/>laboriosam nostrum rem sapiente perferendis inventore voluptatibus <br/> placeat vitae!</h5>
+        <h5>I have programming skills in HTML, CSS, SQL, C# and JS <br/> And basic knowledge on TS, JAVA and 
+        </h5>
         <hr/>
 
       <h1>Work Experience</h1>
