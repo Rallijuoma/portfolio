@@ -1,5 +1,8 @@
-.container 
-    ul {
+.container{
+    position: relative;
+}
+
+.container ul {
     background: #40e0d0;
     display: flex;
     height: 60px;
@@ -18,8 +21,11 @@
                 color: #000000;
             }
         }
-    SocialIcons{
-        height: 45px;
-    }
-    }
+    } 
+}
+.container .socialIcons {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 1px;
 }

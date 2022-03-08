@@ -21,11 +21,12 @@ const Navbar: React.FC<NavbarProps> = () => {
                  <Link to='/projects'>MY PROJECTS</Link>
             </li>
 
-            <SocialIcon url="https://twitter.com/juusohuuskonen" target="_blank" rel="noreferrer"/>
-            <SocialIcon url='https://www.instagram.com/juuso_huuskonen/' target="_blank"rel="noreferrer"/>
-            <SocialIcon url='https://github.com/Rallijuoma' target="_blank"rel="noreferrer"/>
-            {/* <SocialIcon url ='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSMVxmTZjLxqczGfDXJsPjTSlXjkfcXVgpXckbKVLDjvvqZGTMvtxhxBVdgZkrkNjgNmlDWL' target='_blank' rel="noreferrer"/> */}
         </ul>
+        <div className={styles.socialIcons}>
+          <SocialIcon url='https://www.instagram.com/juuso_huuskonen/' target="_blank"rel="noreferrer"/>
+          <SocialIcon url="https://twitter.com/juusohuuskonen" target="_blank" rel="noreferrer"/>
+          <SocialIcon url='https://github.com/Rallijuoma' target="_blank"rel="noreferrer"/>
+        </div>
     </nav>
   )
 }
