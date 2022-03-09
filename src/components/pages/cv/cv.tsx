@@ -32,7 +32,7 @@ const Cv: React.FC<CvProps> = () => {
       }
       <hr/>
       
-      <h1>Contact</h1>
+      <h1>Contact Me</h1>
         {/* <h2>GMAIL:huuskonen39@gmail.com</h2> */}
         <a href="mailto:huuskonen39@gmail.com"><img src={ logo } alt="" /></a>
 
