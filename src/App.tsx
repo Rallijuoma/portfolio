@@ -7,7 +7,7 @@ import Main from './components/pages/main/main'
 import Cv from './components/pages/cv/cv'
 import Projects from './components/pages/projects/projects'
 import Navbar from './components/navbar/navbar'
-import DarkmodeContextProvider from './components/DarkMode/darkmodeContextProvider'
+// import DarkmodeContextProvider from './components/DarkMode/darkmodeContextProvider'
 
 import {
   BrowserRouter as Router,
