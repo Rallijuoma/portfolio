@@ -3,7 +3,7 @@ import styles from './cv.module.scss'
 import { educationData, workData } from './cvData'
 import Education from './educard/education'
 import Work from './workcard/work'
-import logo from '../media/gm.png'
+import gmail from '../media/gm.png'
 
 type CvProps = {
 
@@ -34,7 +34,7 @@ const Cv: React.FC<CvProps> = () => {
       
       <h1>Contact Me</h1>
         {/* <h2>GMAIL:huuskonen39@gmail.com</h2> */}
-        <a href="mailto:huuskonen39@gmail.com"><img src={ logo } alt="" /></a>
+        <a href="mailto:huuskonen39@gmail.com"><img src={ gmail } alt="" /></a>
 
 
     </div>
