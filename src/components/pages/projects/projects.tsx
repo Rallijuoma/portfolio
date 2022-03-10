@@ -19,9 +19,9 @@ const Projects: React.FC<ProjectsProps> = () => {
           <hr/>
           <a href='https://play.unity.com/u/JuusoHuuskonen'  target="_blank" rel="noreferrer" ><img src={ unity } alt = ''></img></a>
           <p>This is my unity play profile here you will find my unity games and exercises. </p>
-          <hr />
+          {/* <hr />
           <a href='https://github.com/Rallijuoma/portfolio'><img src={ github } alt=''></img></a>
-          <p>This is github link to this project.</p>
+          <p>This is github link to this project.</p> */}
       
 
       </div>
