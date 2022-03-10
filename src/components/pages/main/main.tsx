@@ -12,14 +12,16 @@ const Main: React.FC<MainProps> = () => {
 
       <h1><b>Juuso Huuskonen</b></h1>
       <p>Hi! This is my portfolio. Here you will find my cv and few of my projects.</p>
+
     
       {/* <p>
          Hi! This is my portfolio. Here you will find my cv and few of my projects. <br/> 
          I study information and communication technology at <br/> vocational college Varia: Myyrmäki office. 
-      </p> */}
+        </p> */}
       
       <hr></hr>
     
+      <a href="mailto:huuskonen39@gmail.com"><p>Contact Me</p></a>
     </div>
   )
 }
