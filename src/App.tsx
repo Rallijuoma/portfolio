@@ -7,6 +7,7 @@ import Main from './components/pages/main/main'
 import Cv from './components/pages/cv/cv'
 import Projects from './components/pages/projects/projects'
 import Navbar from './components/navbar/navbar'
+// import DarkMode from "./components/DarkMode/darkmode";
 // import DarkmodeContextProvider from './components/DarkMode/darkmodeContextProvider'
 
 import {
@@ -51,6 +52,7 @@ const App: React.FC = () => {
 
     </Router>
 
+      {/* <DarkMode/>  */}
     </div>
 
   )
