@@ -7,8 +7,6 @@ import Main from './components/pages/main/main'
 import Cv from './components/pages/cv/cv'
 import Projects from './components/pages/projects/projects'
 import Navbar from './components/navbar/navbar'
-// import DarkMode from "./components/DarkMode/darkmode";
-// import DarkmodeContextProvider from './components/DarkMode/darkmodeContextProvider'
 
 import {
   BrowserRouter as Router,
@@ -23,18 +21,6 @@ const App: React.FC = () => {
 
     <div className={styles.container}>
       
-      {/* <CantAccessToDarkmodeContext />
-			
-			// context provider as parent component
-			<DarkmodeContextProvider>
-				// here are the child components of context provider
-				<CanAccessToDarkmodeContext />
-				<OtherComponentCanAccessToDarkmodeContext />
-			</DarkmodeContextProvider>
-			
-			// this component is outside of DarkmodeContextProvider and thus it has no access to the darkmode context
-			<OtherComponentCantAccessToDarkmodeContext /> */}
-    
       <Router basename='portfolio'>
         
         <Navbar/>

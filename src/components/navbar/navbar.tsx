@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styles from './navbar.module.scss'
 import { SocialIcon } from 'react-social-icons'
-// import DarkMode from "../DarkMode/darkmode";
 
 type NavbarProps = {
 
@@ -28,7 +27,6 @@ const Navbar: React.FC<NavbarProps> = () => {
           <SocialIcon url="https://twitter.com/juusohuuskonen" target="_blank" rel="noreferrer"/>
           <SocialIcon url='https://github.com/Rallijuoma' target="_blank"rel="noreferrer"/>
         </div>
-        {/* <DarkMode/> */}
     </nav>
   )
 }
