@@ -19,8 +19,6 @@ const Main: React.FC<MainProps> = () => {
          I study information and communication technology at <br/> vocational college Varia: Myyrmäki office. 
         </p> */}
       
-      <hr></hr>
-    
       <a href="mailto:huuskonen39@gmail.com"><p>Contact Me</p></a>
     </div>
   )
