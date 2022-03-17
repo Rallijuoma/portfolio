@@ -12,15 +12,14 @@ const Navbar: React.FC<NavbarProps> = () => {
     <nav className={styles.container}> 
         <ul>
             <li>
-                 <Link to='/'>HOME</Link> 
+                 <Link to='/' >HOME</Link> 
             </li>
             <li>
-                 <Link to='/cv'>CV</Link>
+                 <Link to='/cv' >CV</Link>
             </li>
             <li>
-                 <Link to='/projects'>MY PROJECTS</Link>
+                 <Link to='/projects' >PROJECTS</Link>
             </li>
-
         </ul>
         <div className={styles.socialIcons}>
           <SocialIcon url='https://www.instagram.com/juuso_huuskonen/' target="_blank"rel="noreferrer"/>

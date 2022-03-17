@@ -15,12 +15,11 @@ import {
   //Link
 } from 'react-router-dom';
 // import ClickCount from './components/clickCount';
-
 const App: React.FC = () => {
   return (
 
     <div className={styles.container}>
-      
+
       <Router basename='portfolio'>
         
         <Navbar/>
@@ -35,7 +34,6 @@ const App: React.FC = () => {
 
       {/* The footer and other components you want to display on all pages come here */}
       {/* <ClickCount /> */}
-
     </Router>
 
       {/* <DarkMode/>  */}
@@ -43,5 +41,4 @@ const App: React.FC = () => {
 
   )
 }
-
 export default App
