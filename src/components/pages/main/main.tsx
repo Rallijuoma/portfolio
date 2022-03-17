@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './main.module.scss'
+import { SocialIcon } from 'react-social-icons'
 
 type MainProps = {
 
@@ -20,6 +21,13 @@ const Main: React.FC<MainProps> = () => {
         </p> */}
       
       <a href="mailto:huuskonen39@gmail.com"><p>Contact Me</p></a>
+
+      <div className={styles.socialIcons}>
+          <SocialIcon url='https://www.instagram.com/juuso_huuskonen/' target="_blank"rel="noreferrer"/>
+          <SocialIcon url="https://twitter.com/juusohuuskonen" target="_blank" rel="noreferrer"/>
+          <SocialIcon url='https://github.com/Rallijuoma' target="_blank"rel="noreferrer"/>
+      </div>
+
     </div>
   )
 }

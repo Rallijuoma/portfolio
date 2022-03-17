@@ -4,6 +4,7 @@ import { educationData, workData } from './cvData'
 import Education from './educard/education'
 import Work from './workcard/work'
 import gmail from '../media/gm.png'
+import { SocialIcon } from 'react-social-icons'
 
 type CvProps = {
 
@@ -35,6 +36,11 @@ const Cv: React.FC<CvProps> = () => {
       <h1>Contact Me</h1>
         {/* <h2>GMAIL:huuskonen39@gmail.com</h2> */}
         <a href="mailto:huuskonen39@gmail.com"><img src={ gmail } alt="" /></a>
+        <div className={styles.socialIcons}>
+          <SocialIcon url='https://www.instagram.com/juuso_huuskonen/' target="_blank"rel="noreferrer"/>
+          <SocialIcon url="https://twitter.com/juusohuuskonen" target="_blank" rel="noreferrer"/>
+      </div>
+
 
 
     </div>

@@ -31,3 +31,12 @@
           width: 750px;
       }
 }
+.container .socialIcons {
+    justify-content: center;
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+}
